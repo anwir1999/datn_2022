@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/settingsFrag"
+    android:background="@color/purple_200">
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/bt_switch"
+        android:text="Setting speaker"
+        android:textSize="23sp"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        app:thumbTint="#F0F2F4"
+        app:switchPadding="20sp"
+        app:switchMinWidth="60dp"
+        app:trackTint="@color/color_sw"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Time period"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:textSize="23sp"/>
+    <TextView
+        android:id="@+id/note_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tp_view"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_marginEnd="20dp"
+        android:text="Note: When there is a motion signal, the device will update the position according to the established cycle until the end of the motion."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_view"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="(Recommendation: 2 minutes cycle is optimal)"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/bt_switch"
+        android:text="Note: Turning on the speaker can help the device emit an alert, from which the user will determine where the device is."
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/bt_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:backgroundTint="#CC4343"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        />
+    <Spinner
+        android:id="@+id/spinner_cate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tp_view"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="20dp"
+        android:background="@android:color/transparent"/>
+
+
+</RelativeLayout>

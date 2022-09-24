@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200">
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Ứng dụng định vị và giám sát "
+            android:textStyle="bold"
+            android:textSize="27sp"
+            android:textColor="#BD144E"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cho xe máy"
+            android:textStyle="bold"
+            android:textSize="27sp"
+            android:layout_below="@+id/tv_1"
+            android:textColor="#BD144E"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/bt_unlock"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="170dp"/>
+        <Button
+            android:id="@+id/bt_speaker"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Buzzer"
+            android:layout_below="@+id/bt_unlock"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/bt_mess"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_speaker"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:text="MESSAGE" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gg_map"
+            app:civ_border_width="4dp"
+            app:civ_border_color="#9C3434"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginEnd="60dp"/>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="175dp"
+            android:layout_marginStart="220dp"
+            >
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: "
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/st_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="250dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/lastMest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="Last message:"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dateMest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastMest"
+                android:layout_marginTop="5dp"
+                android:text="Date:"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/timeMess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateMest"
+                android:layout_marginTop="5dp"
+                android:text="Time:"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/latMest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timeMess"
+                android:layout_marginTop="5dp"
+                android:text="Lat:"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/lonMest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/latMest"
+                android:layout_marginTop="5dp"
+                android:text="lon:"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tpMest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lonMest"
+                android:layout_marginTop="5dp"
+                android:text="Time period:"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/dateDevice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/dateMest"
+                android:layout_below="@+id/lastMest"
+                android:layout_marginStart="5dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:text="test" />
+
+            <TextView
+                android:id="@+id/timeDevice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/timeMess"
+                android:layout_below="@+id/dateDevice"
+                android:layout_marginStart="5dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:text="test" />
+            <TextView
+                android:id="@+id/latDevice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/latMest"
+                android:layout_below="@+id/timeDevice"
+                android:layout_marginStart="5dp"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:text="test" />
+            <TextView
+                android:id="@+id/lonDevice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/lonMest"
+                android:layout_below="@+id/latDevice"
+                android:layout_marginStart="5dp"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:text="test" />
+            <TextView
+                android:id="@+id/tpDevice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/tpMest"
+                android:layout_below="@+id/lonDevice"
+                android:layout_marginStart="5dp"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:text="test" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
