@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=Y1 Old Footprint=DIP_XTAL New Footprint=XT2
+Change component parameters: Designator = "Y1" ("Y1"); Footprint = "DIP_XTAL"; UniqueID = "\MYBEVROY" ("\MYBEVROY")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_CHan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = ""; VariantName = "[No Variations]"
+Added Room: Name=Sheet1

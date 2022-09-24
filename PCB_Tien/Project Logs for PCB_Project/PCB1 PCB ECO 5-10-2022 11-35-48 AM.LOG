@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=GND Pin=C20-1
+Removed Pin From Net: NetName=PB13_HSEi Pin=C20-2
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=PB14_HSEo Pin=C21-2
+Change Component Footprint: Designator=C20 Old Footprint=0603-C New Footprint=tu 0603
+Change Component Footprint: Designator=C21 Old Footprint=0603-C New Footprint=tu 0603
+Change Component Comment : Designator=C20 Old Comment=12pF New Comment=10pF
+Change Component Comment : Designator=C21 Old Comment=12pF New Comment=10pF
+Change component parameters: Designator = "C20" ("C20"); Footprint = "0603-C"; UniqueID = "\MDIOTHDU" ("\MDIOTHDU")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004568"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 0603 104-100nF 10% 50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C21" ("C21"); Footprint = "0603-C"; UniqueID = "\CGLFYRXR" ("\CGLFYRXR")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004568"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 0603 104-100nF 10% 50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PB13_HSEi Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=PB14_HSEo Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Room: Name=Sheet1

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=PC1 Pin=JP6-3
+Removed Pin From Net: NetName=PC2 Pin=JP6-4
+Removed Pin From Net: NetName=PC3 Pin=JP6-5
+Removed Pin From Net: NetName=PC4 Pin=JP6-6
+Removed Pin From Net: NetName=PC5 Pin=JP6-7
+Removed Pin From Net: NetName=PE0 Pin=JP6-8
+Added Pin To Net: NetName=PE0 Pin=JP6-3
+Added Pin To Net: NetName=PC4 Pin=JP6-4
+Added Pin To Net: NetName=PC5 Pin=JP6-5
+Added Pin To Net: NetName=PC1 Pin=JP6-6
+Added Pin To Net: NetName=PC2 Pin=JP6-7
+Added Pin To Net: NetName=PC3 Pin=JP6-8
+Added Pin To Net: NetName=PC4 Pin=JP6-9
+Added Pin To Net: NetName=PC5 Pin=JP6-10
+Added Pin To Net: NetName=PC4 Pin=U1-68
+Added Pin To Net: NetName=PC5 Pin=U1-69
+Added Room: Name=Sheet1

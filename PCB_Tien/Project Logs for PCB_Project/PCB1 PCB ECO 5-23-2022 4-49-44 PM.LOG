@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=R14 Old Footprint=tro smd 0603 New Footprint=tro smd 0805
+Change Component Designator: OldDesignator=C19 NewDesignator=C21
+Change Component Designator: OldDesignator=C20 NewDesignator=C19
+Change Component Designator: OldDesignator=C21 NewDesignator=C20
+Change Component Designator: OldDesignator=C23 NewDesignator=C22
+Change Component Designator: OldDesignator=C24 NewDesignator=C23
+Change Component Designator: OldDesignator=JP2 NewDesignator=JP5
+Change Component Designator: OldDesignator=JP3 NewDesignator=JP2
+Change Component Designator: OldDesignator=JP4 NewDesignator=JP6
+Change Component Designator: OldDesignator=JP5 NewDesignator=JP4
+Change Component Designator: OldDesignator=JP6 NewDesignator=JP3
+Change Component Designator: OldDesignator=R12 NewDesignator=R13
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change component parameters: Designator = "R14" ("R14"); Footprint = "tro smd 0603"; UniqueID = "\MAQLUFUW" ("\MAQLUFUW")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005251"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 0805 5% 100R"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Sheet1 Member=Component U3 HT32F52367_LQFP64

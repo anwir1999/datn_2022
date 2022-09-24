@@ -1,0 +1,17 @@
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Added Component: Designator=R13(tro smd 0603)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH006316"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 0603 5% 10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MVDD Pin=R13-1
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR7_2
+Added Pin To Net: NetName=VBAT Pin=C18-2
+Added Pin To Net: NetName=VBAT Pin=R13-2
+Added Pin To Net: NetName=VBAT Pin=U3-25
+Added Net: Name=VBAT
+Added Member To Class: ClassName=Sheet1 Member=Component R14 100R

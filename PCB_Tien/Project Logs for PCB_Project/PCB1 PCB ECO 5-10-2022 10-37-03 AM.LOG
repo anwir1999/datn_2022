@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=MVDD Pin=JP3-1
+Added Component: Designator=JP5(CON10)
+Add component (AddParameter): Name = "Value"; Value = "Connector 10"; VariantName = "[No Variations]"
+Added Component: Designator=JP6(CON10)
+Add component (AddParameter): Name = "Value"; Value = "Connector 10"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=JP3-1
+Added Pin To Net: NetName=5V Pin=JP5-1
+Added Pin To Net: NetName=GND Pin=JP5-2
+Added Pin To Net: NetName=GND Pin=JP5-3
+Added Pin To Net: NetName=GND Pin=JP5-4
+Added Pin To Net: NetName=3.3V Pin=JP6-1
+Added Pin To Net: NetName=GND Pin=JP6-2
+Added Pin To Net: NetName=GND Pin=U1-51
+Added Pin To Net: NetName=GND Pin=U1-52
+Added Pin To Net: NetName=PB2 Pin=JP5-5
+Added Pin To Net: NetName=PB2 Pin=U1-61
+Added Net: Name=PB2
+Added Pin To Net: NetName=PB3 Pin=JP5-6
+Added Pin To Net: NetName=PB3 Pin=U1-62
+Added Net: Name=PB3
+Added Pin To Net: NetName=PB4 Pin=JP5-7
+Added Pin To Net: NetName=PB4 Pin=U1-63
+Added Net: Name=PB4
+Added Pin To Net: NetName=PC1 Pin=JP6-3
+Added Pin To Net: NetName=PC1 Pin=U1-73
+Added Net: Name=PC1
+Added Pin To Net: NetName=PC2 Pin=JP6-4
+Added Pin To Net: NetName=PC2 Pin=U1-74
+Added Net: Name=PC2
+Added Pin To Net: NetName=PC3 Pin=JP6-5
+Added Pin To Net: NetName=PC3 Pin=U1-75
+Added Net: Name=PC3
+Added Pin To Net: NetName=PC4 Pin=JP6-6
+Added Pin To Net: NetName=PC4 Pin=U1-11
+Added Net: Name=PC4
+Added Pin To Net: NetName=PC5 Pin=JP6-7
+Added Pin To Net: NetName=PC5 Pin=U1-12
+Added Net: Name=PC5
+Added Pin To Net: NetName=PD1 Pin=JP5-8
+Added Pin To Net: NetName=PD1 Pin=U1-53
+Added Net: Name=PD1
+Added Pin To Net: NetName=PD2 Pin=JP5-9
+Added Pin To Net: NetName=PD2 Pin=U1-54
+Added Net: Name=PD2
+Added Pin To Net: NetName=PD3 Pin=JP5-10
+Added Pin To Net: NetName=PD3 Pin=U1-55
+Added Net: Name=PD3
+Added Pin To Net: NetName=PE0 Pin=JP6-8
+Added Pin To Net: NetName=PE0 Pin=U1-67
+Added Net: Name=PE0
+Added Pin To Net: NetName=PE1 Pin=JP6-9
+Added Pin To Net: NetName=PE1 Pin=U1-68
+Added Net: Name=PE1
+Added Pin To Net: NetName=PE2 Pin=JP6-10
+Added Pin To Net: NetName=PE2 Pin=U1-69
+Added Net: Name=PE2
+Added Member To Class: ClassName=Sheet1 Member=Component JP5 JP10
+Added Member To Class: ClassName=Sheet1 Member=Component JP6 JP10
+Added Room: Name=Sheet1

@@ -1,0 +1,28 @@
+Added Component: Designator=U1(32A_M)
+Add component (AddParameter): Name = "Value"; Value = "STM8S005K6T6C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RST Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=NetC1_1 Pin=U1-5
+Added Pin To Net: NetName=5V Pin=U1-6
+Added Pin To Net: NetName=5V Pin=U1-7
+Added Pin To Net: NetName=5V Pin=U1-9
+Added Pin To Net: NetName=GND Pin=U1-10
+Added Pin To Net: NetName=I2C_SDA Pin=U1-11
+Added Pin To Net: NetName=I2C_SCL Pin=U1-12
+Added Pin To Net: NetName=NUT_1 Pin=U1-14
+Added Pin To Net: NetName=NUT_2 Pin=U1-15
+Added Pin To Net: NetName=NUT_3 Pin=U1-16
+Added Pin To Net: NetName=led7_H Pin=U1-17
+Added Pin To Net: NetName=led7_G Pin=U1-18
+Added Pin To Net: NetName=led7_F Pin=U1-19
+Added Pin To Net: NetName=led7_E Pin=U1-20
+Added Pin To Net: NetName=led7_D Pin=U1-21
+Added Pin To Net: NetName=led7_C Pin=U1-22
+Added Pin To Net: NetName=led7_B Pin=U1-23
+Added Pin To Net: NetName=led7_A Pin=U1-24
+Added Pin To Net: NetName=SWIM Pin=U1-26
+Added Pin To Net: NetName=led7_4 Pin=U1-29
+Added Pin To Net: NetName=led7_3 Pin=U1-30
+Added Pin To Net: NetName=led7_2 Pin=U1-31
+Added Pin To Net: NetName=led7_1 Pin=U1-32
+Added Member To Class: ClassName=Sheet1 Member=Component U1 MH

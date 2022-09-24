@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=INT Pin=JP?-1
+Removed Pin From Net: NetName=AD0 Pin=JP?-2
+Removed Pin From Net: NetName=SDA Pin=JP?-3
+Removed Pin From Net: NetName=SCL Pin=JP?-4
+Removed Pin From Net: NetName=GND Pin=JP?-5
+Removed Pin From Net: NetName=3.3V Pin=JP?-6
+Added Pin To Net: NetName=3.3V Pin=JP?-1
+Added Pin To Net: NetName=GND Pin=JP?-2
+Added Pin To Net: NetName=SCL Pin=JP?-3
+Added Pin To Net: NetName=SDA Pin=JP?-4
+Added Pin To Net: NetName=AD0 Pin=JP?-5
+Added Pin To Net: NetName=INT Pin=JP?-6
+Added Room: Name=Sheet1

@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=PB10_LSEi Pin=U1-26
+Added Pin To Net: NetName=PB11_LSEo Pin=U1-27
+Added Pin To Net: NetName=PB13_HSEi Pin=U1-30
+Added Pin To Net: NetName=PB14_HSEo Pin=U1-31
+Added Room: Name=Sheet1

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=EN Pin=U1-8
+Removed Pin From Net: NetName=PWRKEY Pin=U1-9
+Removed Pin From Net: NetName=GND Pin=U2-9
+Added Pin To Net: NetName=PWRKEY Pin=U1-57
+Added Pin To Net: NetName=EN Pin=U1-58
+Added Pin To Net: NetName=AD0 Pin=U2-9
+Added Net: Name=AD0
+Added Room: Name=Sheet1

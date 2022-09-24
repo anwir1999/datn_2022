@@ -1,0 +1,9 @@
+Added Component: Designator=JP?(CON7)
+Add component (AddParameter): Name = "Value"; Value = "Connector 7"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=JP?-2
+Added Pin To Net: NetName=GND Pin=JP?-3
+Added Pin To Net: NetName=TX0 Pin=JP?-4
+Added Pin To Net: NetName=RX0 Pin=JP?-5
+Added Pin To Net: NetName=EN Pin=JP?-7
+Added Member To Class: ClassName=Sheet1 Member=Component JP? JP7
+Added Room: Name=Sheet1
